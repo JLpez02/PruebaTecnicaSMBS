@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%; /*1rem = 10px*/
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+    width: min(400px, 90%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px #aaa;
+}
+
+.form__input{
+    display: block;
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #aaa;
+    position: relative;
+}
+
+.form__input--comentario{
+    height: 10rem;
+    resize: none;
+}
+
+.form__input--boton{
+    background-color: #c1c1c1;
+}
+
+.form__input--boton:hover{
+    cursor: pointer;
+    background-color: #aaa;
+}
+
+.alerta{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: red;
+    margin: -1rem auto 1rem auto;
+}
